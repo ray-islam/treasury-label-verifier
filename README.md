@@ -1,4 +1,4 @@
-# TTB Label Verifier — AI-Powered Alcohol Label Compliance Tool
+# TTB Label Verifier: AI-Powered Alcohol Label Compliance Tool
 
 A standalone proof-of-concept web application that helps TTB (Alcohol and Tobacco Tax and Trade Bureau) compliance agents verify key alcohol beverage label fields against application data using OCR and simple field comparison.
 
@@ -8,7 +8,7 @@ https://treasury-label-verifier-three.vercel.app
 
 ## Overview
 
-TTB agents review approximately 150,000 label applications per year. A significant portion of review time is spent on routine field matching — verifying that what appears on a label matches what is in the application. This prototype automates that matching step using OCR, so agents can focus on judgment-based review instead of manual data checks.
+TTB agents review approximately 150,000 label applications per year. A significant portion of review time is spent on routine field matching - verifying that what appears on a label matches what is in the application. This prototype automates that matching step using OCR, so agents can focus on judgment-based review instead of manual data checks.
 
 ### Core Workflow
 
