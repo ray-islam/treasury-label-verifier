@@ -4,7 +4,7 @@ A standalone proof-of-concept web application that helps TTB (Alcohol and Tobacc
 
 ## Live Demo
 
-[Deployed App URL] — update after deployment
+https://treasury-label-verifier-three.vercel.app
 
 ## Overview
 
