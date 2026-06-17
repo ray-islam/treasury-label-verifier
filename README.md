@@ -111,7 +111,7 @@ The app is a fully stateless frontend prototype:
 
 - **OCR accuracy**: Works best on clear, straight-on label images. Angled, low-resolution, or glare-heavy images may produce noisy text.
 - **Brand and class/type extraction**: Relies on simple heuristics (line-based filtering and keyword lists). More advanced layout/ML techniques could improve accuracy.
-- **Government warning validation**: Prototype focuses on detection and basic comparison. It does not yet enforce every formatting and typographical requirement from the CFR.[web:648]
+- **Government warning validation**: Prototype focuses on detection and basic comparison. It does not yet enforce every formatting and typographical requirement from the CFR.
 - **English labels only**: The prototype assumes English-language labels.
 - **No batch processing**: Labels are processed one at a time in this version.
 - **No authentication**: A production deployment would need appropriate authentication/authorization and logging per federal standards.
