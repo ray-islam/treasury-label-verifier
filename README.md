@@ -99,7 +99,7 @@ The prototype:
 - Detects the `GOVERNMENT WARNING` section in the OCR text and extracts a fixed-length snippet for review.
 - Surfaces whether a warning was found and allows side-by-side comparison with the expected text.
 
-A production system would need to enforce the exact wording and formatting required by TTB regulations (e.g., the standard health warning text and `GOVERNMENT WARNING:` in all caps).[web:648]
+A production system would need to enforce the exact wording and formatting required by TTB regulations (e.g., the standard health warning text and `GOVERNMENT WARNING:` in all caps).
 
 **No backend / no storage**  
 The app is a fully stateless frontend prototype:
@@ -115,6 +115,7 @@ The app is a fully stateless frontend prototype:
 - **English labels only**: The prototype assumes English-language labels.
 - **No batch processing**: Labels are processed one at a time in this version.
 - **No authentication**: A production deployment would need appropriate authentication/authorization and logging per federal standards.
+- In cases where OCR output is clearly noisy, the app prefers **Needs review** over a hard **Mismatch** so agents can review the label directly.
 
 ## Future Improvements
 
