@@ -35,7 +35,7 @@ TTB agents review approximately 150,000 label applications per year. A significa
   - Government warning
 - Simple fuzzy matching: case-insensitive comparison with normalization and substring checks, to tolerate minor formatting differences (e.g., `ON YOUR SIX` vs `ON YOUR SIX BOURBON WHISKEY`).
 - Per-field statuses plus an overall status banner (success / warning / error).
-- Fast, fully client-side prototype — no backend or data persistence.
+- Fast, fully client-side prototype - no backend or data persistence.
 
 ## Tech Stack
 
